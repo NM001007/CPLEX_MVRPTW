@@ -18,7 +18,7 @@ V: Number of Vertices (including both depots and customers) <br>
 
 **Customer Visit Constraint** <br>
 
-$$\sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \forall \, \,  i \in N; \, k \in,  K;$$ <br>
+$$\sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \quad \forall \, \,  i \in N; \, k \in,  K;$$ <br>
 
 $$\sum_{k \in K } y_{i}^{k} = 1, \quad \forall \, \,  i \in N;$$ <br>
 
