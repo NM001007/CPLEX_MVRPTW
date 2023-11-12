@@ -7,6 +7,10 @@ Hi, this is an implementation of CPLEX that can be applied on multi-depot and mu
 Here are the formulations used for the objective function and the constraints:
 
 ## Objective Function
+Typically considered in the vehicle routing problem, the objective function tries to minimize the overall distance of the routes taken by the vehicles.
 $$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
+
+## Constraints
+
 
 
