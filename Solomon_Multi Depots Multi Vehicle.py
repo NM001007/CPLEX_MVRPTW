@@ -204,5 +204,5 @@ def vrptw_cplex(dataframe, capacity=200, depot_number=1, vehicle_number=2):
 
 if __name__ == '__main__':
     length = 25
-    file = pd.read_csv("./rc101.txt", delim_whitespace=True, nrows=length)
+    file = pd.read_csv("./Data/rc101.txt", delim_whitespace=True, nrows=length)
     vrptw_cplex(file, capacity=200, depot_number=2, vehicle_number=3)
