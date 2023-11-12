@@ -14,10 +14,13 @@ $$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
 ## Constraints
 
 ** Customer Visit Constraint **
-$$ 
-\sum_{j \in V }  x_{ij}^{kw} = y_{i}^{kw}, \forall \, \,  i \in C; \, k \in,  K; \, w \in W,
-\sum_{k \in K } \sum_{w \in W } y_{i}^{kw} = 1, \quad \forall \, \,  i = 1,...,n,
-$$
+N: Number of Customers
+K: Number of Vehicles
+
+
+$$ \sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \forall \, \,  i \in N; \, k \in,  K; $$ 
+$$\sum_{k \in K } y_{i}^{k} = 1, \quad \forall \, \,  i \in N; $$
+
 
 
 
