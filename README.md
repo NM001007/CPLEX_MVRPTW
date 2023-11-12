@@ -48,6 +48,10 @@ $$t_{0k} = 0, \quad \forall \, \, k \in K.$$<br>
 
 and **Each vehicle should start its new route from a depot where it has returned**.<br>
 
+## Results
+The followings are some results returned by the CPLEX problem solver. As I have considered a time limit of 20-30 minutes, these can be feasible solutions rather than optimal ones when the number of customers exceed 10.
+
+
 
 
 
