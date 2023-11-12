@@ -51,6 +51,15 @@ and **Each vehicle should start its new route from a depot where it has returned
 ## Results
 The followings are some results returned by the CPLEX problem solver. As I have considered a time limit of 20-30 minutes, these can be feasible solutions rather than optimal ones when the number of customers exceed 10.
 
+![Result for 18 customers, 3 vehicles and 2 depots](https://github.com/NM001007/CPLEX_MVRPTW/blob/main/MVRPTW_Results/MDMVRP_18_3_2.png)
+
+<br>
+
+![Result for 20 customers, 3 vehicles and 2 depots](https://github.com/NM001007/CPLEX_MVRPTW/blob/main/MVRPTW_Results/MDMVRP_20_3_2.png)
+
+<br>
+
+![Result for 25 customers, 3 vehicles and 2 depots](https://github.com/NM001007/CPLEX_MVRPTW/blob/main/MVRPTW_Results/MDMVRP_25_3_2.png)
 
 
 
