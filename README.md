@@ -16,7 +16,7 @@ The followings are the paramters considered in modeling the problem: <br>
 N: Number of Customers <br>
 K: Number of Vehicles <br>
 V: Number of Vertices (including both depots and customers) <br>
-A: List of all the possible edges in the graph $$(i, j) \quad i, j \in V$$ 
+A: List of all the possible edges in the graph $(i, j) \quad i, j \in V$
 M: A large positive number <br>
 
 **Customer Visit Constraint** <br>
