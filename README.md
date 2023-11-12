@@ -22,6 +22,7 @@ $$ \sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \forall \, \,  i \in N; \, k \in,  K
 $$\sum_{k \in K } y_{i}^{k} = 1, \quad \forall \, \,  i \in N; $$
 
 **Route and Flow Conservation** <br>
+
 $$ \sum_{j \in V }  x_{ih}^{k} - \sum_{j \in V }  x_{hj}^{k} = 0 \forall \, \,  h \in C; \, k \in,  K. $$
 
 
