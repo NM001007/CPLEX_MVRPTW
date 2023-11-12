@@ -13,9 +13,9 @@ $$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
 
 ## Constraints
 
-**Customer Visit Constraint**
-N: Number of Customers
-K: Number of Vehicles
+**Customer Visit Constraint**;
+N: Number of Customers;
+K: Number of Vehicles;
 
 $$ \sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \forall \, \,  i \in N; \, k \in,  K; $$
 
