@@ -27,7 +27,9 @@ $$\sum_{k \in K } y_{i}^{k} = 1, \quad \forall \, \,  i \in N;$$ <br>
 **Route and Flow Conservation, and Depot Constraints** <br>
 
 $$\sum_{j \in V }  x_{ih}^{k} - \sum_{j \in V }  x_{hj}^{k} = 0 \quad \forall \,  h \in N; \, k \in, K.$$ <br>
+
 $$\sum_{d \in D} \sum_{(i,j) \in A; i \in D}  x_{ij}^{k} \leq 1, \quad k \in K$$ <br>
+
 $$\sum_{d \in D} \sum_{(i,j) \in A; j \in D}  x_{ij}^{k} \leq 1, k \in K,$$ <br>
 
 **Capacity Constraint**
