@@ -15,6 +15,7 @@ $$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
 N: Number of Customers <br>
 K: Number of Vehicles <br>
 V: Number of Vertices (including both depots and customers) <br>
+A: List of all the possible edges in the graph $$(i, j) \quad i, j \in V$$ 
 
 **Customer Visit Constraint** <br>
 
@@ -23,9 +24,17 @@ $$\sum_{j \in V }  x_{ij}^{k} = y_{i}^{k}, \quad \forall \, \,  i \in N; \, k \i
 $$\sum_{k \in K } y_{i}^{k} = 1, \quad \forall \, \,  i \in N;$$ <br>
 
 
-**Route and Flow Conservation** <br>
+**Route and Flow Conservation, and Depot Constraints** <br>
 
-$$\sum_{j \in V }  x_{ih}^{k} - \sum_{j \in V }  x_{hj}^{k} = 0 \forall \, \,  h \in N; \, k \in, K.$$
+$$\sum_{j \in V }  x_{ih}^{k} - \sum_{j \in V }  x_{hj}^{k} = 0 \quad \forall \,  h \in N; \, k \in, K.$$ <br>
+$$\sum_{d \in D} \sum_{(i,j) \in A; i \in D}  x_{ij}^{k} \leq 1, \quad k \in K$$ <br>
+$$\sum_{d \in D} \sum_{(i,j) \in A; j \in D}  x_{ij}^{k} \leq 1, k \in K,$$ <br>
+
+**Capacity Constraint**
+$$\sum_{i \in C} d_i y_{i}^{k} \leq Q, \quad \forall \, k \in K$$
+
+
+
 
 
 
