@@ -7,6 +7,6 @@ Hi, this is an implementation of CPLEX that can be applied on multi-depot and mu
 Here are the formulations used for the objective function and the constraints:
 
 ## Objective Function
-$$\minimize \sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
+$$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
 
 
