@@ -8,9 +8,16 @@ Here are the formulations used for the objective function and the constraints:
 
 ## Objective Function
 Typically considered in the vehicle routing problem, the objective function tries to minimize the overall distance of the routes taken by the vehicles.
+
 $$ Minimize\sum_{k=1}^K \sum_{i=0}^{n} \sum_{j=0}^{n} c_{ijk} x_{ijk}$$
 
 ## Constraints
+
+** Customer Visit Constraint **
+$$ 
+\sum_{j \in V }  x_{ij}^{kw} = y_{i}^{kw}, \forall \, \,  i \in C; \, k \in,  K; \, w \in W,
+\sum_{k \in K } \sum_{w \in W } y_{i}^{kw} = 1, \quad \forall \, \,  i = 1,...,n,
+$$
 
 
 
